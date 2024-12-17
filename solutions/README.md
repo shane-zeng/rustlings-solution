@@ -1,6 +1,9 @@
-# Official Rustlings solutions
+## Progress
 
-Before you finish an exercise, its solution file will only contain an empty `main` function.
-The content of this file will be automatically replaced by the actual solution once you finish the exercise.
-
-Note that these solutions are often only _one possibility_ to solve an exercise.
+|     Exercies      | Progress | 
+|:-----------------:|:--------:| 
+|    `variables`    |   6/6    | 
+|    `functions`    |   5/5    | 
+|       `if`        |   3/3    | 
+|      `quiz1`      |   1/1    | 
+| `primitive_types` |   6/6    |
