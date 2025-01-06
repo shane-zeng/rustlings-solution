@@ -8,3 +8,4 @@
 |      `quiz1`      |   1/1    | 
 | `primitive_types` |   6/6    |
 |      `vecs`       |   2/2    |
+| `move_semantics`  |   5/5    |
