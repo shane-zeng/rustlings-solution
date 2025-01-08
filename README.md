@@ -10,3 +10,4 @@
 |      `vecs`       |   2/2    |
 | `move_semantics`  |   5/5    |
 |     `structs`     |   3/3    |
+|      `enums`      |   3/3    |
