@@ -13,3 +13,4 @@
 |      `enums`      |   3/3    |
 |     `strings`     |   4/4    |
 |     `modules`     |   3/3    |
+|    `hashmaps`     |   3/3    |
