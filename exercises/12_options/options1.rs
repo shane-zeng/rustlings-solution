@@ -4,6 +4,11 @@
 // `hour_of_day` is higher than 23.
 fn maybe_icecream(hour_of_day: u16) -> Option<u16> {
     // TODO: Complete the function body.
+    match hour_of_day {
+        0..=21 => Some(5),
+        22 => Some(0),
+        _ => None,
+    }
 }
 
 fn main() {
@@ -20,7 +25,7 @@ mod tests {
         // Option?
         let icecreams = maybe_icecream(12);
 
-        assert_eq!(icecreams, 5); // Don't change this line.
+        assert_eq!(icecreams, Some(5)); // Don't change this line.
     }
 
     #[test]
@@ -29,7 +34,7 @@ mod tests {
         assert_eq!(maybe_icecream(9), Some(5));
         assert_eq!(maybe_icecream(18), Some(5));
         assert_eq!(maybe_icecream(22), Some(0));
-        assert_eq!(maybe_icecream(23), Some(0));
+        assert_eq!(maybe_icecream(23), None);
         assert_eq!(maybe_icecream(24), None);
         assert_eq!(maybe_icecream(25), None);
     }

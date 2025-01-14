@@ -14,3 +14,4 @@
 |     `strings`     |   4/4    |
 |     `modules`     |   3/3    |
 |    `hashmaps`     |   3/3    |
+|     `options`     |   3/3    |
