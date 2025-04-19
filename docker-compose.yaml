@@ -1,0 +1,9 @@
+services:
+  rustlings:
+    build: .
+    container_name: rustlings-app
+    volumes:
+      - ./:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true

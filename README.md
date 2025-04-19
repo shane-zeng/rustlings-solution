@@ -15,3 +15,4 @@
 |     `modules`     |   3/3    |
 |    `hashmaps`     |   3/3    |
 |     `options`     |   3/3    |
+|     `errors`      |   6/6    |
