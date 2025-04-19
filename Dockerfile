@@ -16,6 +16,7 @@ RUN sed -i 's/ZSH_THEME=".*"/ZSH_THEME="robbyrussell"/' ~/.zshrc \
     && echo 'alias rlc="cd /app && cargo clean"' >> ~/.zshrc \
     && echo 'cd /app' >> ~/.zshrc
 
-RUN cargo install rustlings
+RUN cargo install rustlings \
+    && rustup component add clippy
 
 CMD ["zsh", "-l"]
